@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import { render } from 'react-dom';
 import Start from './views/Start/index';
+import Condition from './views/Condition/index';
 import './style.css';
 
 interface AppProps {}
@@ -17,7 +18,7 @@ class App extends Component<AppProps, AppState> {
   }
 
   render() {
-    return <Start />;
+    return <Condition />;
   }
 }
 
